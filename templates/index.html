@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlexiAgent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-container">
+        <img src="/static/pleximus_logo.jpg" alt="Pleximus Logo">
+    </div>
+    <h1>🤖 PlexiAgent</h1>
+
+    <p class="subtitle">
+    Built for the Pleximus AI Agent Challenge
+    </p>
+
+    <input
+        type="text"
+        id="message"
+        placeholder="Ask me anything..."
+    >
+
+    <button onclick="sendMessage()">Send</button>
+
+    <div class="card">
+
+        <h3>🛠 Tool Selected</h3>
+        <div id="tool" class="badge">Waiting...</div>
+
+    </div>
+
+    <div class="card">
+
+        <h3>🤖 Agent Response</h3>
+        <p id="response">Ask something to begin.</p>
+
+    </div>
+
+    <div class="tools">
+
+        <h3>Available Tools</h3>
+
+        <ul>
+            <li>🧮 Calculator</li>
+            <li>🌦 Weather Lookup</li>
+            <li>📝 Text Utility</li>
+            <li>📚 Wikipedia Search</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
